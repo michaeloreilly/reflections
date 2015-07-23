@@ -1,0 +1,46 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It makes the differences between the two files jump right out instead of
+having to carefully inspect each character.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It makes it easier to revert back to an older version if one path turns out
+	to be a bad choice, or contain errors.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Manually choosing commits has the advantage of flexibility and control, though
+	it could turn out to be a problem if the user makes poor choices, committing
+	either too often or not often enough.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    A version control system for which files are likely to be interconnected should
+	allow saving multiple files in one commit, so that interrelated changes across
+	files will be trackable. A system in which files are unlikely to relate to each
+	other would not make sense to have that functionality.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Use git log to determine which commit has the change you're interested in viewing.
+	Then use git diff to compare that commit to the previous one to see what changed.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Being able to go back to previous versions to determine what broke things or
+	caused a bug makes me more confident that no matter what changes I make I won't
+	break things beyond repair and will be able to fix any problems that arise.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I plan on using Git for version control as I work my way through the Udacity
+	programming courses, both so that I have better results in those courses and
+	so that I come out of them with a good working knowledge of Git as well as
+	programming.
